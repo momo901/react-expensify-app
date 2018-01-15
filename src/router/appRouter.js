@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter , Route, Switch, Link, NavLink} from 'react-router-dom';
+import {BrowserRouter , Route, Switch, NavLink} from 'react-router-dom';
 import HomePage from '../components/homePage'
 import CreatePage from '../components/createPage'
 import EditPage from '../components/editPage'

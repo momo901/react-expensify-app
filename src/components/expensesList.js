@@ -1,6 +1,5 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {addExpense, removeExpense } from '../actions/expenses'
 import ExpenseItemsList from '../components/expenseItemsList'
 import expenseItemsList from '../components/expenseItemsList';
 import selectFilter from '../selectors/expenses'

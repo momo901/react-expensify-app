@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
 const AboutPage=()=>(
     <div>
         <h2>about page </h2>

@@ -1,8 +1,7 @@
 import React from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom'
-import {addExpense, removeExpense, editExpense} from '../actions/expenses';
-import { browserHistory } from 'react-router';
+import {removeExpense} from '../actions/expenses';
 
 
 const ExpenseItemsList=({description, amount , note ,id,dispatch,createAt,},props)=>(

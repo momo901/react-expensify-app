@@ -1,6 +1,5 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {addExpense} from '../actions/expenses';
 import moment, { calendarFormat } from 'moment'
 import {SingleDatePicker} from 'react-dates';
 import 'react-dates/lib/css/_datepicker.css';
